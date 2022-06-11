@@ -1,0 +1,14 @@
+[features]
+seeds = false
+[programs.devnet]
+anchor_project0 = "FUBvQ9hMJ3RdDHW2oGKNiR1rp3hfdA5WmMnptbXAK38F"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/home/threedevx/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
